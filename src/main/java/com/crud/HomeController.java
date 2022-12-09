@@ -1,4 +1,4 @@
-package com.example;
+package com.crud;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,7 +11,7 @@ import java.util.List;
 public class HomeController {
     @RequestMapping("/")
     public String home() {
-        return "index";
+        return "home";
     }
     @RequestMapping("classlist")
     public String list(Model model) {
